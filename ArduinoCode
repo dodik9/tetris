@@ -60,7 +60,7 @@ setPixel(uint32_t color1, int x, int y)
   leds.setPixelColor (i, color1);
 }
 
-// das ist das Board clear zu machen 
+// das LED-Board frei machen von allem 
 void clearLed() {
   for (int i = 0; i < WIDTH * HEIGHT; i++)
   {
